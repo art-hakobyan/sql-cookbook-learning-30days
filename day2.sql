@@ -41,3 +41,25 @@ SELECT InvoiceId, InvoiceDate, BillingCountry, Total
 FROM Invoice
 WHERE BillingCountry IN ('Canada', 'USA');
 
+
+-- Quiz fixes section
+SELECT TrackId, Milliseconds
+FROM Track
+ORDER BY Milliseconds DESC
+LIMIT 5;
+
+SELECT InvoiceId, total
+FROM Invoice
+WHERE total BETWEEN 5 AND 8;
+
+SELECT FirstName, LastName, Email
+FROM Customer
+WHERE Email like '%.com';
+
+SELECT Name
+FROM Track
+WHERE Name NOT like '%Live%';
+
+SELECT FirstName, LastName, Company
+FROM Customer
+WHERE Company IS NOT NULL AND Company = ' ';

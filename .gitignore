@@ -1,0 +1,12 @@
+.DS_Store
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-shm
+*.db-wal
+gitoken.rtf
+gitoken.rtf
+Chinook_Sqlite.sqlite
+*.db
+.DS_Store

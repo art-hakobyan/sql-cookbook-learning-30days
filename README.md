@@ -9,7 +9,7 @@ Each day has its own `.sql` file with commented queries that build up from basic
 
 - [x] [Day 1](day1.sql) — SELECT basics & LIMIT  
 - [x] [Day 2](day2.sql) — Filtering with WHERE, LIKE, IN, BETWEEN  
-- [ ] Day 3 — ORDER BY & DISTINCT  
+- [x] Day 3 — ORDER BY & DISTINCT  
 - [ ] Day 4 — Calculated fields  
 - [ ] Day 5 — Pattern matching (LIKE)  
 - [ ] Day 6 — Aggregations (COUNT, AVG, SUM)  
